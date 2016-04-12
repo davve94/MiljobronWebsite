@@ -1,0 +1,39 @@
+/* 
+Theme Name: MiljobronTheme
+Theme URI: http://wordpress.org/
+Description:
+Author: David
+Author URI: http://wordpress.org/
+Version 1.0
+Tags:
+License:
+License URI: 
+
+General comments(optional). 
+
+*/
+
+body {
+    
+    background: silver;
+    font: 16px arial,sans-serif;
+}
+#container {
+    
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 14px;
+}
+footer {
+    width: 800px;
+    margin: 0 auto;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+#sidebar {
+    border: 1px solid red; 
+    float: right;
+    width: 200px;
+}
