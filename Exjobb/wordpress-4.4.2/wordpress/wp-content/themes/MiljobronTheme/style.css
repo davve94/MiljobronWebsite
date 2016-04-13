@@ -12,12 +12,22 @@ License URI:
 General comments(optional). 
 
 */
+h1{
+    font-family: 'Gill Sans MT', arial;
+    font-size: 24px;
+    
+}
+
+h2{
+    font-family: 'Gill Sans MT', "Times New Roman";
+    font-size: 16px;
+}
 
 body {
     
     background: white;
-    font-family: 'times new roman';
-    font-size: 16px;
+    font-family: 'Gill Sans MT', arial;
+    font-size: 11px;
 }
 #container {
     
