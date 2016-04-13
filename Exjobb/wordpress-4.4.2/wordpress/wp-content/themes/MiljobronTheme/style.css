@@ -12,6 +12,7 @@ License URI:
 General comments(optional). 
 
 */
+
 h1{
     font-family: 'Gill Sans MT', arial;
     font-size: 24px;
@@ -37,16 +38,27 @@ body {
     border-radius: 14px;
 }
 footer {
-    width: 800px;
-    margin: 0 auto;
-    background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används 
-                                enligt deras grafiska profil*/
-    color: white; /*  Grått bör användas för text i sidfot som beskriver
-                        verksamheten alt. finansiärer.  */ 
-    padding: 20px;
+ 
+    background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används */
+    position:fixed;
+    bottom:0;
+    left:50%;
+    margin-left:-400px; /*negative half the width */
+    width:800px;
+    height:100px;                    
+
 }
 #sidebar {
    /* border: 1px solid red; */
     float: right;
     width: 200px;
+}
+
+#copyright{
+    color: white;
+    padding-left: 300px;
+    position:absolute;
+    bottom: 0;
+    
+     
 }
