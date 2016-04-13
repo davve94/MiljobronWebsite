@@ -10,6 +10,7 @@
     
 </footer>
 
+</div>   
 </body> 
 
 </html>

@@ -19,9 +19,10 @@
         <link rel ="stylesheet" href="<?php bloginfo('stylesheet_url')?>" />
         <?php wp_head()?> 
      </head>
-   <header>
+     <div id = "structure" > 
+   <div id="head">
         <h1><a href="<?php home_url('/')?>"<?php bloginfo('name')?></a> </h1>
-    </header>
+    </div>
      <div id="container"> 
      
     
