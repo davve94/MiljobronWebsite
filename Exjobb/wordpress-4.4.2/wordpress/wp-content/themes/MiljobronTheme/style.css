@@ -50,7 +50,7 @@ body {
 }
 
 #container {
-    
+    text-align: center;
     width: 65%;
     float: left;
     background: #fff; 
