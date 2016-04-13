@@ -1,6 +1,12 @@
 <div id="sidebar">
     
-    Sidebar 
+    <div >
+       
+        
+        <p>
+                    hello sidebar.
+        </p> 
+        
     
-    
+    </div>
 </div>

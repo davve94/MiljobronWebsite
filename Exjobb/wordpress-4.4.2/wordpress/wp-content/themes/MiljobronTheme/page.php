@@ -3,6 +3,8 @@
 <?php get_header()?>
 
 <div>
+
+
     <?php while(have_posts()):?>
     
     <h2><?php the_title()?></h2>

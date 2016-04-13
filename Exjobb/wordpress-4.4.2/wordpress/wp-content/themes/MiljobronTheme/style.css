@@ -40,25 +40,27 @@ body {
 footer {
  
     background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används */
-    position:fixed;
+ 
     bottom:0;
-    left:50%;
-    margin-left:-400px; /*negative half the width */
-    width:800px;
+  
+    /*negative half the width */
+    margin-left:100px;
+    margin-right:100px;
     height:100px;                    
 
 }
 #sidebar {
    /* border: 1px solid red; */
+    color:blue;
     float: right;
-    width: 200px;
+    width: 100px;
 }
 
 #copyright{
     color: white;
-    padding-left: 300px;
-    position:absolute;
-    bottom: 0;
+    padding-left: 350px;
+    padding-top: 80px;
     
+
      
 }
