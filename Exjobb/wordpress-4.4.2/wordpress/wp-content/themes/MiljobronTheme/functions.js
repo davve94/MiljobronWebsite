@@ -1,3 +1,9 @@
+/**************************************************************************/
+
+/*             "   Alla javascript funktioner läggs här   "               */
+
+/**************************************************************************/
+
 function header( $name = null ) {
 	/**
 	 * Fires before the header template file is loaded.

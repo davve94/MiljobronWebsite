@@ -23,57 +23,65 @@ h2{
     font-family: 'Gill Sans MT', "Times New Roman";
     font-size: 16px;
 }
-#structure{
-    
-    /* background: yellow; */
-    border: 4px solid brown;
-    height: 100%;
-    width: 100%;
-}
+/*   lite text font och grejer för <p> också 
+ *
+ */
+
 body {
     
     background: white;
     font-family: 'Gill Sans MT', arial;
     font-size: 11px;
+    
+}
+#structure{
+    
+    /*background: yellow; */
+   /* border: 4px solid brown; */
+    height: 100%;         /* -- använd ej "pixlar" för att justera positionen !!!!! */
+    width: 100%;         /* -- använd ej "pixlar"" för att justera positionen !!!!! */
+    position: absolute;
 }
 #head {
-    background: blue;
-    border: 2px solid black;
-    height: 140px;
+    background: white;
+    border: 1px solid black; 
+    height: 20% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
+   
 }
 
 #container {
     
     width: 65%;
-    background: #fff;
+    float: left;
+    background: #fff; 
     /*position: relative; */
-    min-height: auto;
-    border: 2px solid pink;
+   /* min-height: auto;                    /* -- använd ej pixlar för att justera positionen !!!!! */
+    height: 65%;                        /* är beroende av alla andra */
+    /* border: 2px solid pink; */
 }
 #sidebar{
     color:blue;
     float: right;
     font-size: 25px;
-    width: 35%;
-    height: -80%; 
-    border: 2px solid purple;
+    width: 35%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
+    height:65%;                     /* är beroende av alla andra */
+   border: 1px solid black; 
 }
 footer {
- 
     background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används */
     bottom:0;
     position: absolute;
-    width: 100%;
-    height: 150px; 
-    /*border: 2px solid black; */
+    width: 100%;              /* -- använd ej pixlar för att justera positionen !!!!! */
+    height: 15%;             /* är beroende av alla andra */
+    border: 1px solid black; 
     
 } 
 
 #copyright{
     color: white;
-    text-align: center;
+    text-align: center;   /* -- använd ej " pixlar " för att justera positionen !!!!! */
     font-size: 16px;
 }
 #w3-content{
- 
+        /* behövs nog inte  ?? */
 } 

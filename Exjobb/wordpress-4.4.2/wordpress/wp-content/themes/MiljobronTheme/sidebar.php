@@ -1,4 +1,4 @@
-</div>  
+ </div>
 <div id="sidebar">
     
     <div >
@@ -10,4 +10,5 @@
         
     
     </div>
-   
+
+</div>
