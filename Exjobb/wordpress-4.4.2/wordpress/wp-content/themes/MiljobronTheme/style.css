@@ -40,10 +40,11 @@ body {
 footer {
  
     background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används */
- 
+   
     bottom:0;
   
     /*negative half the width */
+    margin-top:200px;
     margin-left:100px;
     margin-right:100px;
     height:100px;                    
@@ -60,7 +61,8 @@ footer {
     color: white;
     padding-left: 350px;
     padding-top: 80px;
-    
-
-     
+   
+}
+#w3-content{
+ 
 }
