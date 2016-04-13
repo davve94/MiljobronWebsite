@@ -22,7 +22,7 @@
    <header>
         <h1><a href="<?php home_url('/')?>"<?php bloginfo('name')?></a> </h1>
     </header>
-     
+     <div id="container"> 
      
     
 <!-- <div class="w3-content" style="max-width:600px;position:relative">
