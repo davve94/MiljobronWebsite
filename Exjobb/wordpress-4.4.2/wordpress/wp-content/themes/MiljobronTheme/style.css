@@ -30,25 +30,26 @@ body {
     font-family: 'Gill Sans MT', arial;
     font-size: 11px;
 }
+header {
+    background: red;
+    border: 2px solid black;
+    height: 40px;
+}
 #container {
     
-    width: 100%;
+    width: auto;
    /* margin: 0 auto; */
     background: #fff;
     /*border-radius: 14px; */
     position: relative;
-    min-height: 100%;
+    min-height: auto;
     border: 2px solid red;
-}
-header {
-    background: red;
 }
 footer {
  
     background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används */
    
     bottom:0;
-  
     /*negative half the width */
     /*margin-top:200px;
     margin-left:100px;
