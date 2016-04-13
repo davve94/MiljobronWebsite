@@ -5,11 +5,11 @@
  <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<style>
+<!--<style>
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-</style>
+</style> -->
 <body>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> <!-- enables the awesome fade in effec -->
     <head>
@@ -25,7 +25,7 @@
      
      
     
-<div class="w3-content" style="max-width:600px;position:relative">
+<!-- <div class="w3-content" style="max-width:600px;position:relative">
 
 <img class="mySlides " src="img1.jpg" height="100px" width="600px"/>
 <img class="mySlides " src="img2.png" height="100px" width="600px"/>
@@ -36,32 +36,5 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
   </div>
 
-</div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
+</div> -->
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
