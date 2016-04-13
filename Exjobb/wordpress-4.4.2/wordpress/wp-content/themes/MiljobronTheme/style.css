@@ -15,8 +15,9 @@ General comments(optional).
 
 body {
     
-    background: silver;
-    font: 16px arial,sans-serif;
+    background: white;
+    font-family: 'times new roman';
+    font-size: 16px;
 }
 #container {
     
@@ -28,12 +29,14 @@ body {
 footer {
     width: 800px;
     margin: 0 auto;
-    background: #000;
-    color: #fff;
+    background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används 
+                                enligt deras grafiska profil*/
+    color: white; /*  Grått bör användas för text i sidfot som beskriver
+                        verksamheten alt. finansiärer.  */ 
     padding: 20px;
 }
 #sidebar {
-    border: 1px solid red; 
+   /* border: 1px solid red; */
     float: right;
     width: 200px;
 }
