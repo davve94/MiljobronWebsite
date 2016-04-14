@@ -37,8 +37,8 @@ body {
 #structure{
     
     /*background: yellow; */
-   /* border: 4px solid brown; */
-    height: 100%;         /* -- använd ej "pixlar" för att justera positionen !!!!! */
+    /*border: 4px solid brown; */
+    height: 180%;         /* -- använd ej "pixlar" för att justera positionen !!!!! */
     width: 100%;         /* -- använd ej "pixlar"" för att justera positionen !!!!! */
     position: absolute;
 }
