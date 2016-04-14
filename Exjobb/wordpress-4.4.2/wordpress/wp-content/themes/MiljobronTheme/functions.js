@@ -3,6 +3,10 @@
 /*             "   Alla javascript funktioner läggs här   "               */
 
 /**************************************************************************/
+/**<script src="js/myfile.js?t=<?=time()?>" type="text/javascript">
+ *  need later for timestamp, updating javascript
+ *   
+ * */
 
 function header( $name = null ) {
 	/**
