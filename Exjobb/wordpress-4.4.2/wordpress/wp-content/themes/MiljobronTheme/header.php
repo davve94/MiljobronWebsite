@@ -7,12 +7,8 @@
 <meta charset="utf-8" /> 
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <script type ="text/javascript" src="functions.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<!--<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style> -->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
 <body>
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css"> <!-- enables the awesome fade in effec -->
     <head>
@@ -77,17 +73,5 @@
     </div>
      <div id="container"> 
      
-    
-<!-- <div class="w3-content" style="max-width:600px;position:relative">
-
-<img class="mySlides " src="img1.jpg" height="100px" width="600px"/>
-<img class="mySlides " src="img2.png" height="100px" width="600px"/>
-<div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
-    <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">❮</div>
-    <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">❯</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-  </div>
-
-</div> -->
+   
 
