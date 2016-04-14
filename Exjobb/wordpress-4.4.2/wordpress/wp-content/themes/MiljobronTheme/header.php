@@ -2,11 +2,12 @@
 
 <html>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
- <title>W3.CSS</title>
+ <title>Miljöbron</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8" /> 
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <script type ="text/javascript" src="functions.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <!--<style>
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
@@ -37,6 +38,42 @@
        <div class="topright">
            <img src="logo.jpg" width="200px" height="100px" alt=""/>
        </div>
+       
+       <div
+    class="test"
+    data-slides='[
+        "img1.jpg",
+        "img3.jpg"
+    ]'
+    
+    > … 
+       
+       </div> <!-- /.primary -->
+       
+       
+       
+       
+<script>
+    (function($) {
+
+    'use strict';
+
+    var $slides = $('[data-slides]');
+    var images = $slides.data('slides');
+    var count = images.length;
+    var slideshow = function() {
+        $slides
+            .css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
+            .show(0, function() {
+                setTimeout(slideshow, 5000);
+            });
+    };
+
+    slideshow();
+
+}(jQuery));
+</script>
+       
     </div>
      <div id="container"> 
      

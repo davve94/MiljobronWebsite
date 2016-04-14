@@ -42,12 +42,13 @@ body {
     width: 100%;         /* -- använd ej "pixlar"" för att justera positionen !!!!! */
     position: absolute;
 }
-#head {
+#head{
     background: white;
     border: 1px solid black; 
     height: 40% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
     top:0; 
-    background-image:url(Images/img1.jpg)
+ /* background-image:url(Images/img1.jpg), url(Images/img3.jpg); 
+    background-repeat: no-repeat; */s
 }   
 
 
@@ -123,4 +124,25 @@ a:link {
     top: 8px;
     right: 16px;
     font-size: 18px;
+}
+
+.global-header {
+min-height:600px;
+background-image: url(/Images/img1.jpg);
+background-size: cover;
+text-align: center; 
+}
+
+
+[data-slides] {
+    background-image: url(Images/img1.jpg); /* Default image. */
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    transition: background-image 1s linear;
+}
+
+.test { height: 220px; }
+@media all and (min-width: 48em) {
+    .test { height: 320px; }
 }
