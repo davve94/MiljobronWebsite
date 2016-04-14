@@ -5,6 +5,7 @@
  <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<script type ="text/javascript" src="functions.js"></script>
 <!--<style>
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
