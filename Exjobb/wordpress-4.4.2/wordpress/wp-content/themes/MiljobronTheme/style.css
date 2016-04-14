@@ -45,7 +45,7 @@ body {
 #head {
     background: white;
     border: 1px solid black; 
-    height: 20% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
+    height: 40% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
     top:0; 
     background-image:url(Images/img1.jpg)
 }   
@@ -58,7 +58,7 @@ body {
     background: #fff; 
     /*position: relative; */
    /* min-height: auto;                    /* -- använd ej pixlar för att justera positionen !!!!! */
-    height: 65%;                        /* är beroende av alla andra */
+    height: 45%;                        /* är beroende av alla andra */
     /* border: 2px solid pink; */
 }
 #sidebar{
@@ -66,7 +66,7 @@ body {
     float: right;
     font-size: 25px;
     width: 35%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
-    height:65%;                     /* är beroende av alla andra */
+    height:45%;                     /* är beroende av alla andra */
    border: 1px solid black; 
 }
 footer {
