@@ -47,8 +47,9 @@ body {
     border: 1px solid black; 
     height: 20% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
     top:0; 
-   
-}
+    background-image:url(Images/img1.jpg)
+}   
+
 
 #container {
     text-align: center;
@@ -114,4 +115,12 @@ li a:hover {
 }
 a:link {
     text-decoration: none;
+}
+
+.topright {
+    padding-top: 50px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
 }

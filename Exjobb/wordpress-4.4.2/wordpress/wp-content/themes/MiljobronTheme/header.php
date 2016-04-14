@@ -34,6 +34,9 @@
     <li><a href="about.asp">Om</a></li>
     <li><a href="about.asp">Kontakt</a></li>
 </ul>
+       <div class="topright">
+           <img src="logo.jpg" width="200px" height="100px" alt=""/>
+       </div>
     </div>
      <div id="container"> 
      
