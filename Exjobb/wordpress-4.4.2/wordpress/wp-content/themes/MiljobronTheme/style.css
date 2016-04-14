@@ -46,6 +46,7 @@ body {
     background: white;
     border: 1px solid black; 
     height: 20% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
+    top:0;
    
 }
 
@@ -90,11 +91,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #669900;
+    
+    
 }
 
 li {
-    float: left;
+     float: left; 
 }
 
 li a {
@@ -107,5 +110,8 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #fff;
+}
+a:link {
+    text-decoration: none;
 }
