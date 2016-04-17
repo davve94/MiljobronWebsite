@@ -5,7 +5,7 @@
        
         
         <p>
-                    hello sidebar.
+                    Dagens Nyheter!
         </p> 
         
     

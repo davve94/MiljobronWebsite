@@ -33,16 +33,17 @@ a {
 
 body {
     
-    background: white;
+    background: #669900;
     font-family: 'Gill Sans MT', arial;
     font-size: 11px;
+
     
     
 }
 #structure{
     
     /*background: yellow; */
-    /*border: 4px solid brown; */
+   /* border: 4px solid brown; */
     height: 180%;         /* -- använd ej "pixlar" för att justera positionen !!!!! */
     width: 100%;         /* -- använd ej "pixlar"" för att justera positionen !!!!! */
     position: absolute;
@@ -71,6 +72,7 @@ body {
     /* border: 2px solid pink; */
 }
 #sidebar{
+    background-color: white;
     color:blue;
     float: right;
     font-size: 25px;
@@ -137,6 +139,9 @@ a:link {
     font-size: 18px;*/
     float:right;
     
+}
+#newsletter {
+    float: right;
 }
 /*
 .global-header {
