@@ -26,12 +26,17 @@ h2{
 /*   lite text font och grejer för <p> också 
  *
  */
+a {
+    
+    font-family: 'Gill Sans MT', "Times New Roman";
+}
 
 body {
     
     background: white;
     font-family: 'Gill Sans MT', arial;
     font-size: 11px;
+    
     
 }
 #structure{
@@ -45,10 +50,13 @@ body {
 #head{
     background: white;
     border: 1px solid black; 
-    height: 40% ;                     /* är beroende av alla andra, tillsammans ger de 100% */
-    top:0; 
- /* background-image:url(Images/img1.jpg), url(Images/img3.jpg); 
-    background-repeat: no-repeat; */
+    width: 100%;
+    height: 40%; 
+    /* är beroende av alla andra, tillsammans ger de 100% */
+    /*top:0; */
+    
+    background-image:url(Images/img1.jpg);
+    /*background-repeat: no-repeat; */
 }   
 
 
@@ -93,7 +101,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #669900;
+   /* background-color: #669900; */
+    background: rgba(255,255,255,0.6);
     
     
 }
@@ -104,7 +113,8 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
+    font-size: 16px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -112,9 +122,10 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #fff;
+    background-color: #669900;
 }
 a:link {
+   
     text-decoration: none;
 }
 
@@ -125,6 +136,7 @@ a:link {
     right: 16px;
     font-size: 18px;*/
     float:right;
+    
 }
 /*
 .global-header {
