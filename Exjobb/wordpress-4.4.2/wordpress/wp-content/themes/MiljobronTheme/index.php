@@ -1,5 +1,4 @@
 
-<script type="text/javascript" src="functions.js"></script
 <?php get_header()?>
 
 <div>

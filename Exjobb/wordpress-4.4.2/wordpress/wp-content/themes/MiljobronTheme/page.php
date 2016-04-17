@@ -1,14 +1,8 @@
 <!doctype html >
 
-<script type="text/javascript" src="functions.js"></script
 <?php get_header()?>
 
 <div>
-    HELLO
-
-
-
-
     <?php while(have_posts()):?>
     
     <h2><?php the_title()?></h2>

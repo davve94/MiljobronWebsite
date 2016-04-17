@@ -8,7 +8,7 @@
  *   
  * */
 
-function header( $name = null ) {
+/*function header( $name = null ) {
 	/**
 	 * Fires before the header template file is loaded.
 	 *
@@ -23,7 +23,7 @@ function header( $name = null ) {
          * 
 	 */
         
-	do_action( 'get_header', $name );
+/*	do_action( 'get_header', $name );
 
 	$templates = array();
 	$name = (string) $name;
@@ -43,7 +43,7 @@ function header( $name = null ) {
 var slideIndex = 1; 
 showDivs(slideIndex);    // how to call showDivs
 */ 
-function plusDivs(n) {
+/*function plusDivs(n) {
   showDivs(slideIndex += n);
 }
 
@@ -68,7 +68,7 @@ function showDivs(n) {
 }
 /*****************************************************************/
 
-(function($) {
+/*(function($) {
 
     'use strict';
 
@@ -86,3 +86,30 @@ function showDivs(n) {
     slideshow();
 
 }(jQuery));
+
+/*********************************************************************/
+
+var bgimages=new Array();
+bgimages[0]="wp-content/themes/MiljobronTheme/Images/img1.jpg";
+bgimages[1]="wp-content/themes/MiljobronTheme/Images/img2.jpg";
+bgimages[2]="wp-content/themes/MiljobronTheme/Images/img3.jpg";
+
+//preload images
+var pathToImg=new Array();
+for (i=0;i<bgimages.length;i++){
+pathToImg[i]=new Image();
+pathToImg[i].src=bgimages[i];
+}
+
+var inc=-1;
+
+function bgSlide(){
+if (inc<bgimages.length-1)
+inc++;
+else
+inc=0;
+document.body.background=pathToImg[inc].src;
+}
+
+if (document.all||document.getElementById)
+window.onload=new Function('setInterval("bgSlide()",3000)');
