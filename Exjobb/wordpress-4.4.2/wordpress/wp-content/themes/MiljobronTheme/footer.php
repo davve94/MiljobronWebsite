@@ -7,7 +7,7 @@
   <p>  <?=date('Y')?> Copyright © Miljöbron</p> <!-- ta bort year? -->
     </div>
     <div id="newsletter">
-        <p> Nyhets brev </p>
+        <p> Fyll i för nyhetsbrev! </p>
         <input type="text" class="form-control" placeholder="E-mail">
         <p></p>
         <input type="text" class="form-control" placeholder="Fullt namn">

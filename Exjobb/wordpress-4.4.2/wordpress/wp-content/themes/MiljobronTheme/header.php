@@ -2,7 +2,7 @@
 
 <html>
 <head>
-
+<!-- här lägger man till scripts och links! Obs! ordning spelar roll! -->
 <title><?php bloginfo('title')?></title>
 
 <link href="wp-content/themes/MiljobronTheme/Resources/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/> 
@@ -15,15 +15,17 @@
 
 <script src="wp-content/themes/MiljobronTheme/Resources/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="wp-content/themes/MiljobronTheme/Resources/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-<script type ="text/javascript" src="functions.js"></script> <!-- samma som ovan kanske ?? -->
+<script type ="text/javascript" src="wp-content/themes/MiljobronTheme/functions.js"></script> <!-- samma som ovan kanske ?? -->
 </head>
+<!------------------------------------------------------------------------------------>
 <body>
 <div id = "structure" > 
    <div id="head">
+       <nav id="menubar" role="navigation" >
        <ul class="nav nav-pills">
-        <li role="presentation"><a href="#">Hem</a></li>
-        <li role="presentation"><a href="#">X-Race</a></li>
-        <li role="presentation"><a href="#">Student</a></li>
+           <li role="presentation"><a href="index.php">Hem</a></li>
+        <li role="presentation"><a href="X_Race.php">X-Race</a></li>
+        <li role="presentation"><a href="Student.php">Student</a></li>
         <li role="presentation"><a href="#">Företag</a></li>
         <li role="presentation"><a href="#">Partner</a></li>
         <li role="presentation"><a href="#">Resultat</a></li>
@@ -37,6 +39,8 @@
         </button>
         </form>
         </ul>
+       </nav>
+       
 
        <div id="topright">
            <img src="wp-content/themes/MiljobronTheme/Images/logo.jpg" width="200px" height="100px" alt=""/>
@@ -45,6 +49,11 @@
        
     </div>
     <div id="container"> 
+         
+        <script>
+          getTimeStamp(); // test-- returns timestamp with dialog
+        </script>
+      
         
         
      

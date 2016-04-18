@@ -29,6 +29,7 @@ h2{
 a {
     
     font-family: 'Gill Sans MT', "Times New Roman";
+    
 }
 
 body {
@@ -53,6 +54,7 @@ body {
     border: 1px solid black; 
     width: 100%;
     height: 40%; 
+    
     /* är beroende av alla andra, tillsammans ger de 100% */
     /*top:0; */
     
@@ -92,8 +94,9 @@ footer {
 
 #copyright{
     color: white;
-    text-align: center;   /* -- använd ej " pixlar " för att justera positionen !!!!! */
     font-size: 16px;
+    text-align: center;   /* -- använd ej " pixlar " för att justera positionen !!!!! */
+
 }
 #w3-content{
         /* behövs nog inte  ?? */
@@ -105,8 +108,6 @@ ul {
     overflow: hidden;
    /* background-color: #669900; */
     background: rgba(255,255,255,0.6);
-    
-    
 }
 
 li {
@@ -142,6 +143,13 @@ a:link {
 }
 #newsletter {
     float: right;
+}
+#newsletter p {
+    font-size: 16px;
+}
+#menubar {
+    
+    position: fixed; /* gör så att navigeringsmenyn följer med hela tiden */
 }
 /*
 .global-header {

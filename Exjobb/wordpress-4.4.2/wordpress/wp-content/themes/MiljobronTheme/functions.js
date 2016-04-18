@@ -7,6 +7,11 @@
  *  need later for timestamp, updating javascript
  *   
  * */
+function getTimeStamp() {
+      var d = new Date();
+      var n = d.getTime();
+      alert(n);
+}
 
 /*function header( $name = null ) {
 	/**
