@@ -58,13 +58,14 @@ body {
     /* är beroende av alla andra, tillsammans ger de 100% */
     /*top:0; */
     
-    background-image:url(Images/img1.jpg);
+    background-image:url("Images/img1.jpg");
     /*background-repeat: no-repeat; */
 }   
 
 
 #container {
     text-align: center;
+    overflow: scroll;
     width: 65%;
     float: left;
     background: #fff; 

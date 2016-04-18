@@ -41,18 +41,20 @@
         </ul>
        </nav>
        
-
+     
+         
+          
        <div id="topright">
-           <img src="wp-content/themes/MiljobronTheme/Images/logo.jpg" width="200px" height="100px" alt=""/>
+          <img src="wp-content/themes/MiljobronTheme/Images/logo.jpg" width="200px" height="100px" alt=""/>
+       
        </div>
        
        
-    </div>
-    <div id="container"> 
-         
-        <script>
-          getTimeStamp(); // test-- returns timestamp with dialog
-        </script>
+        </div>
+        <div id="container"> 
+            <script>
+                getTimeStamp(); // test-- returns timestamp with dialog
+            </script>
       
         
         
