@@ -58,7 +58,7 @@ body {
     /* är beroende av alla andra, tillsammans ger de 100% */
     /*top:0; */
     
-  /*  background-image:url("Images/img1.jpg");
+  /*background-image:url("Images/img1.jpg");
     /*background-repeat: no-repeat; */
 }   
 
@@ -101,6 +101,18 @@ footer {
 }
 #w3-content{
         /* behövs nog inte  ?? */
+} 
+#header [data-slides] {
+    background-image: url(wp-content/themes/MiljobronTheme/Images/img1.jpg); /* Default image. */
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: cover;
+    transition: background-image 1s linear;
+    
+}
+
+.header_slider { 
+     height: 100%; 
 } 
 ul {
     list-style-type: none; 
@@ -149,7 +161,10 @@ a:link {
 }
 #menubar{
    /* position: fixed; /* gör så att navigeringsmenyn följer med hela tiden */
-    width: 100%;
+   width: 100%;
+}
+#contactinfo {
+    float:left;
 }
 /*
 .global-header {
@@ -172,15 +187,4 @@ text-align: center;
 @media all and (min-width: 48em) {
     .test { height: 320px; } 
 } */
-[data-slides] {
-    background-image: url(wp-content/themes/MiljobronTheme/Images/img1.jpg); /* Default image. */
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    transition: background-image 1s linear;
-    
-}
 
-.header_slider { 
-     height: 100%; 
-} 
