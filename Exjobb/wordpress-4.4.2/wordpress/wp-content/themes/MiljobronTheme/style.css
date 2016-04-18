@@ -26,7 +26,7 @@ h2{
 /*   lite text font och grejer för <p> också 
  *
  */
-a {
+a{
     
     font-family: 'Gill Sans MT', "Times New Roman";
     
@@ -103,10 +103,10 @@ footer {
         /* behövs nog inte  ?? */
 } 
 ul {
-    list-style-type: none;
+    list-style-type: none; 
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 0; 
+    overflow: hidden; 
    /* background-color: #669900; */
     background: rgba(255,255,255,0.6);
 }
@@ -140,7 +140,6 @@ a:link {
     right: 16px;
     font-size: 18px;*/
     float:right;
-    
 }
 #newsletter {
     float: right;
@@ -148,9 +147,9 @@ a:link {
 #newsletter p {
     font-size: 16px;
 }
-#menubar {
-    
-    position: fixed; /* gör så att navigeringsmenyn följer med hela tiden */
+#menubar{
+   /* position: fixed; /* gör så att navigeringsmenyn följer med hela tiden */
+    width: 100%;
 }
 /*
 .global-header {

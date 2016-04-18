@@ -20,6 +20,7 @@
 <!------------------------------------------------------------------------------------>
 <body>
 <div id = "structure" > 
+    
    <div id="head">
        <nav id="menubar" role="navigation" >
        <ul class="nav nav-pills">
@@ -40,10 +41,10 @@
         </form>
         </ul>
        </nav>
+       <script>
+           fixedMenu();
+       </script>
        
-     
-         
-          
        <div id="topright">
           <img src="wp-content/themes/MiljobronTheme/Images/logo.jpg" width="200px" height="100px" alt=""/>
        
@@ -51,8 +52,10 @@
        
        
         </div>
+   
         <div id="container"> 
             <script>
+                
                 getTimeStamp(); // test-- returns timestamp with dialog
             </script>
       
