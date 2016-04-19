@@ -1,43 +1,29 @@
 <?php
-
+/*********** initierar alla scripts och länkar ***************************************************/
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * wp_enqueue_style: enqueues the sources and also registers them if ' $src: url ' provided 
  */
-/* register_nav_menu('top-bar', __('Primary Menu'));
-function makeMenu(){
+function miljo_script_enqueue() {
+  // links here!
+    wp_enqueue_style('bootstrap.min.css', get_template_directory_uri().'/Resources/bower_components/bootstrap/dist/css/bootstrap.min.css', array(),'1.0.0','all');
+    wp_enqueue_style('customresponsiv', 'http://www.w3schools.com/lib/w3.css', array(),'1.0.0','all'); /* bibliotek som gör sidan automatiskt responsiv och ändrar storlek beroende på skärm storlek */
+    wp_enqueue_style('customstyle', get_template_directory_uri().'/css/Miljostyle.css', array(),'1.0.0','all');
+  // scripts here!
+    wp_enqueue_script('customjs', get_template_directory_uri().'/js/functions.js',array(),'1.0.0',false); // false means running in header, which is bad,run in footer!
+    wp_enqueue_script('jquery.min', get_template_directory_uri().'/Resources/bower_components/jquery/dist/jquery.min.js',array(),'1.0.0',false);
+    wp_enqueue_script('bootstrap.min', get_template_directory_uri().'/Resources/bower_components/bootstrap/dist/js/bootstrap.min.js',array(),'1.0.0',false);
     
-add_theme_support('menus');
-
 }
-add_action('init', 'makeMenu'); */
+add_action('wp_enqueue_scripts', 'miljo_script_enqueue');
 
-/* Theme setup */
-
+/***************************Lägger till bootstrap meny******************************************************/
 require_once('wp-bootstrap-navwalker/wp_bootstrap_navwalker.php');
 
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'MiljobronTheme' ),
 ) );
+/****************************************************************************************************/
 
-/*add_action( 'after_setup_theme', 'wpt_setup' );
-    if ( ! function_exists( 'wpt_setup' ) ):
-        function wpt_setup() {  
-            register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
-        } endif;
-
-        
-function wpt_register_js() {
-    wp_register_script('jquery.bootstrap.min', get_template_directory_uri() . '/js/bootstrap.min.js', 'jquery');
-    wp_enqueue_script('jquery.bootstrap.min');
-}
-add_action( 'init', 'wpt_register_js' );
-function wpt_register_css() {
-    wp_register_style( 'bootstrap.min', get_template_directory_uri() . '/css/bootstrap.min.css' );
-    wp_enqueue_style( 'bootstrap.min' );
-}
-add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
 
 
 
