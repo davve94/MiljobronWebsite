@@ -102,7 +102,7 @@ footer {
 #w3-content{
         /* behövs nog inte  ?? */
 } 
-#header [data-slides] {
+   [data-slides] {
     background-image: url(wp-content/themes/MiljobronTheme/Images/img1.jpg); /* Default image. */
     background-repeat: no-repeat;
     background-position: center top; 
@@ -114,6 +114,8 @@ footer {
 .header_slider { 
      height: 100%; 
 } 
+
+
 ul {
     list-style-type: none; 
     margin: 0;
@@ -166,25 +168,11 @@ a:link {
 #contactinfo {
     float:left;
 }
-/*
-.global-header {
-min-height:600px;
-background-image: url(wp-content/themes/MiljobronTheme/Images/img1.jpg);
-background-size: cover;
-text-align: center; 
+
+.instagram{
+     
+    
+  
+    
+    
 }
-
-
-[data-slides] {
-    background-image: url(wp-content/themes/MiljobronTheme/Images/img1.jpg); /* Default image. */
-  /*  background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    transition: background-image 1s linear;
-}
-
-.test { height: 220px; }
-@media all and (min-width: 48em) {
-    .test { height: 320px; } 
-} */
-
