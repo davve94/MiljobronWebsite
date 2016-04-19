@@ -29,13 +29,18 @@
  
     <!-- Facebook -->
     <a href="https://www.facebook.com//miljobron" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+        <img class="img-responsive" src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
     </a>
 
     <!-- Twitter -->
     <a href="https://twitter.com//miljobron" target="_blank">
-        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+        <img class="img-responsive" src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
+    
+    <a href="https://www.instagram.com/miljobron/" target="_blank">
+        <img class="img-responsive" src="wp-content/themes/MiljobronTheme/Images/instasharebutton.png" alt="Instagram" />
+    </a>
+
     
    
 
