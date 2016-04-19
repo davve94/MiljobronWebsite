@@ -22,9 +22,10 @@
 <div id = "structure" > 
     
    <div id="head">
-       <nav id="menubar" role="navigation" >
+       
+      <!-- <nav id="menubar" role="navigation" >
        <ul class="nav nav-pills">
-           <li role="presentation"><a href="index.php">Hem</a></li>
+           <li role="presentation"><a href="page.php">Hem</a></li>
         <li role="presentation"><a href="X_Race.php">X-Race</a></li>
         <li role="presentation"><a href="Student.php">Student</a></li>
         <li role="presentation"><a href="#">Företag</a></li>
@@ -40,7 +41,24 @@
         </button>
         </form>
         </ul>
-       </nav>
+       </nav> -->
+      
+      <div id="menubar" > 
+      
+        <?php
+            wp_nav_menu( array(
+                'menu'              => 'primary',
+                'theme_location'    => 'primary',
+                'depth'             => 2,
+                'menu_class'        => 'nav navbar-nav',
+                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                'walker'            => new wp_bootstrap_navwalker())
+            );
+        ?>
+       
+       
+   </div>
+
           <div  class="header_slider" data-slides='[
         "wp-content/themes/MiljobronTheme/Images/img1.jpg",         
         "wp-content/themes/MiljobronTheme/Images/img2.jpg"
@@ -51,10 +69,10 @@
         <script>
                 slider();
                 getTimeStamp(); // test-- returns timestamp with dialog
-            </script> 
+        </script> 
        <script>
           fixedMenu();
-       </script>
+       </script> 
        
  
 

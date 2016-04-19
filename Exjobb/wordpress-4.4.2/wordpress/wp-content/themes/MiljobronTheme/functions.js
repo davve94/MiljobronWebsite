@@ -12,6 +12,11 @@ function getTimeStamp() {
       var n = d.getTime();
       alert(n);
 }
+/*
+ * will change the position of the navigation menu (= #menubar) 
+ * from fixed to relative when y is greater than or equal to 500, 
+ * which basically means scrolling down to a certain point.
+ */
 function fixedMenu() {
 $(document).scroll(function() {
     var y = $(document).scrollTop(), //get page y value 
