@@ -20,9 +20,26 @@
         <input type="text" class="form-control" placeholder="E-mail">
         <p></p>
         <input type="text" class="form-control" placeholder="Fullt namn">
+        
     </div>
    
-        
+            <div id="share-buttons">
+    
+  
+ 
+    <!-- Facebook -->
+    <a href="https://www.facebook.com//miljobron" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+
+    <!-- Twitter -->
+    <a href="https://twitter.com//miljobron" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+    
+   
+
+</div>
     
 </footer>
 
