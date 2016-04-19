@@ -51,10 +51,6 @@
           fixedMenu();
        </script> 
        
- 
-
-
-       
         </div>
    
         <div id="container"> 

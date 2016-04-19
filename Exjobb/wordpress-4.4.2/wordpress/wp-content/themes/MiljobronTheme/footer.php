@@ -23,28 +23,36 @@
         
     </div>
    
-            <div id="share-buttons">
+            <div id="share-buttons"> 
     
-  
- 
-    <!-- Facebook -->
+ <a class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter"></span>
+  </a>
+   <a class="btn btn-social-icon btn-instagram">
+    <span class="fa fa-instagram"></span>
+  </a>
+  <a class="btn btn-social-icon btn-facebook">
+    <span class="fa fa-facebook"></span>
+  </a>
+    <!-- Facebook 
+    
     <a href="https://www.facebook.com//miljobron" target="_blank">
         <img class="img-responsive" src="wp-content/themes/MiljobronTheme/Images/fbshare.png" alt="Facebook" />
     </a>
 
-    <!-- Twitter -->
+    <!-- Twitter 
     <a href="https://twitter.com//miljobron" target="_blank">
         <img class="img-responsive" src="wp-content/themes/MiljobronTheme/Images/twittershare.png" alt="Twitter" />
     </a>
     
     <a href="https://www.instagram.com/miljobron/" target="_blank">
         <img class="img-responsive" src="wp-content/themes/MiljobronTheme/Images/instasharebutton.png" alt="Instagram" />
-    </a>
+    </a> -->
 
     
    
 
-</div>
+</div> 
     
 </footer>
 
