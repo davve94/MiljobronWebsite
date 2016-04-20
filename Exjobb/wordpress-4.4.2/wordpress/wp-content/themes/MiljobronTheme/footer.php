@@ -25,13 +25,13 @@
    
             <div id="share-buttons"> 
     
- <a class="btn btn-social-icon btn-twitter">
+  <a class="btn btn-social-icon btn-twitter" href="https://twitter.com//miljobron">
     <span class="fa fa-twitter"></span>
   </a>
-   <a class="btn btn-social-icon btn-instagram">
+  <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/miljobron/">
     <span class="fa fa-instagram"></span>
   </a>
-  <a class="btn btn-social-icon btn-facebook">
+  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com//miljobron">
     <span class="fa fa-facebook"></span>
   </a>
     <!-- Facebook 
