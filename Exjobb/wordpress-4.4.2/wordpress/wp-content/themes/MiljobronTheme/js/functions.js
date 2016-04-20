@@ -17,6 +17,15 @@ function getTimeStamp() {
  * from fixed to relative when y is greater than or equal to 500, 
  * which basically means scrolling down to a certain point.
  */
+/*
+ * 
+ *to reload the current page. It will ignore any cached items and retrieve new copies of the 
+ *page, css, images, JavaScript, etc from the server. 
+ *This doesn't clear the whole cache, but has the effect of clearing the cache for the page you are on.
+ */
+function clearCache() {
+    window.location.reload(true);
+}
 function fixedMenu() {
 $(document).scroll(function() {
     var y = $(document).scrollTop(), //get page y value 
