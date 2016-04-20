@@ -7,11 +7,15 @@
 
 <footer class="footer-distributed">
 
-			<div class="footer-left">
-                                
-				   <div id="logo">
-                            <img src="wp-content/themes/MiljobronTheme/Images/MBTP.png" height="75px" weight="75px" alt=""/>
-                            </div>
+	<div class="footer-left">
+  
+             <div class="footer-left"> Fyll i för nyhetsbrev! </p>
+                 <input type="text" class="form-control" placeholder="E-mail">
+                    <p></p>
+                         <input type="text" class="form-control" placeholder="Fullt namn">
+                         <p></p>
+                            <button type="button" class="btn btn-default">Skicka</button>
+                                </div>
 				
                             <div id="copyright">   
                             <p>    <?=date('Y')?>   Copyright Miljöbron   </p>                   
@@ -27,12 +31,12 @@
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>031-202 789</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;031-202 789&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 				</div>
 
 				<div>
 					<i id="email" class="fa fa-envelope"></i>
-					<p><a href="mailto:info@miljobron.se">info@miljobron.se</a></p>
+					<p><a href="mailto:info@miljobron.se">info@miljobron.se &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
 				</div>
 
 			</div>
@@ -43,15 +47,16 @@
 					<span>Om oss</span>
 					Miljöbron är en ideell organisation som genom stöd från aktörer inom offentlig och privat sektor, samt högskola och universitet, kan förmedla den här hjälpen kostnadsfritt till företag och studenter. Läs mer om våra partner under fliken Partner i menyn.
 				</p>
+                                
 
 				<div class="footer-icons">
-<a class="btn btn-social-icon btn-twitter" href="https://twitter.com//miljobron">
+<a class="btn btn-social-icon btn-twitter" href="https://twitter.com//miljobron" target="_blank">
     <span class="fa fa-twitter"></span>
   </a>
-  <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/miljobron/">
+  <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/miljobron/" target="_blank">
     <span class="fa fa-instagram"></span>
   </a>
-  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com//miljobron">
+  <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com//miljobron" target="_blank">
     <span class="fa fa-facebook"></span>
   </a>
 
