@@ -82,22 +82,25 @@ body {
     height:45%;                     /* är beroende av alla andra */
     border: 1px solid black; 
 }
-footer {
-    background: #669900;  /* #669900 är den som dom använder, #7aaa3f; används */
-    bottom:0;
-    position: absolute;
-    width: 100%;              /* -- använd ej pixlar för att justera positionen !!!!! */
-    height: 15%;             /* är beroende av alla andra */
-    border: 1px solid black; 
-    
-} 
+
 
 #copyright{
     color: white;
     font-size: 16px;
-    text-align: center;   /* -- använd ej " pixlar " för att justera positionen !!!!! */
+    margin-top: 10%; 
+    }/* -- använd ej " pixlar " för att justera positionen !!!!! */
+/*
+footer {
+            background: #669900;   #669900 är den som dom använder, #7aaa3f; används 
+    bottom:0;
+    position: absolute;
+    width: 100%;                använd ej pixlar för att justera positionen !!!!! 
+    height: 15%;              är beroende av alla andra 
+    border: 1px solid black; 
+    
+} 
+*/
 
-}
 #w3-content{
         /* behövs nog inte  ?? */
 } 
@@ -177,4 +180,8 @@ box-shadow: 0;
 display: inline;
 }
 
+#logo {
+    margin-top: 0%;
+    
+}
 
