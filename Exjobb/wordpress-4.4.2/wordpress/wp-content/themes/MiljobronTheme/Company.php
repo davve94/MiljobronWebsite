@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Student
+ * Template Name: Company
  *
  * @package WordPress
  * @subpackage MiljobronTheme
@@ -21,3 +21,4 @@
 <?php get_sidebar()?>
 <?php get_footer()?>
 ?>
+

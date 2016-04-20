@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Student
+ * Template Name: Contact
  *
  * @package WordPress
  * @subpackage MiljobronTheme
