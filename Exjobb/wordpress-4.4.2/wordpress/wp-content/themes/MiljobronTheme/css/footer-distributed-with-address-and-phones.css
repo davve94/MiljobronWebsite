@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: bold 16px 'Lato';
 
 	padding: 55px 50px;
 	margin-top: 80px;
@@ -28,7 +28,7 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Arial';
+	font: normal 36px 'Lato';;
 	margin: 10px;
 }
 
@@ -150,7 +150,7 @@
 @media (max-width: 880px) {
 
 	.footer-distributed{
-		font: bold 14px sans-serif;
+		font: bold 14px 'Lato';
 	}
 
 	.footer-distributed .footer-left,
