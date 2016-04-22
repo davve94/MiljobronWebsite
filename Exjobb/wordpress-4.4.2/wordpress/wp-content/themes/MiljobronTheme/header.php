@@ -3,7 +3,6 @@
 <html>
 <head>
 <title><?php bloginfo('title')?></title>
-<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <?php wp_head()?> <!-- fixar alla scripts och links, hooks/refererar till functions.php -->
 <meta charset="utf-8" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -46,7 +45,7 @@
         ></div> 
         <script>
                 slider();
-                //getTimeStamp(); // test-- returns timestamp with dialog
+                getTimeStamp(); // test-- returns timestamp with dialog
         </script> 
        <script>
           fixedMenu();
