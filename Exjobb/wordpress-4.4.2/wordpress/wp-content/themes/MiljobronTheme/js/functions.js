@@ -25,7 +25,7 @@ function getTimeStamp() {
  */
 function clearCache() {
     window.location.reload(true);
-}
+} 
 function fixedMenu() {
 $(document).scroll(function() {
     var y = $(document).scrollTop(), //get page y value 

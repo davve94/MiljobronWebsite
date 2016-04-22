@@ -63,12 +63,23 @@
 				</div>
 
 			</div>
-
-		</footer>
+<!----------------------------------------------------------------------->
+<!------------------- Kalla på Javascript funktioner här ---------------->
+<!----------------------------------------------------------------------->
+      <script>
+          slider();      // image slider- changes the images in the header 
+      </script>
+      <script>
+          fixedMenu();   // menu changes position when scroll reaches certain point
+      </script>
+</footer>
 
 </div> 
+
+
 <!-- add wp_footer() here! when nav menu works!, before /body -->
 
+ 
 </body>
 
 </html>

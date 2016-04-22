@@ -35,31 +35,16 @@
         </form>
        
    </div>
-
-          <div  class="header_slider" data-slides='[
-        "wp-content/themes/MiljobronTheme/Images/img1.jpg",         
-        "wp-content/themes/MiljobronTheme/Images/img2.jpg"
-        
-         ]'
-    
-        ></div> 
-        <script>
-                slider();
-                getTimeStamp(); // test-- returns timestamp with dialog
-        </script> 
-       <script>
-          fixedMenu();
-       </script> 
-    
-       
+      <div  class="header_slider" data-slides='[
+               "<?php echo get_bloginfo('template_directory');?>/Images/img1.jpg", 
+               "<?php echo get_bloginfo('template_directory');?>/Images/img2.jpg "
+               ]'>
+      </div> 
+     
         </div>
    
         <div id="container"> 
-            <!--<script>
-                slider();
-                getTimeStamp(); // test-- returns timestamp with dialog
-            </script> -->
-      
+           
         
         
      
