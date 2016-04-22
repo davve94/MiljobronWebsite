@@ -1,6 +1,6 @@
  </div>
 <div id="sidebar">
-    
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <div >
        
         

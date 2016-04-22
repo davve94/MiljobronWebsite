@@ -1,9 +1,7 @@
 
 <html>
 
-        <!-- 
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-        -->
+      <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 <footer class="footer-distributed">
 
