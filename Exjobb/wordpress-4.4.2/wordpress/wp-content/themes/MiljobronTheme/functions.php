@@ -16,6 +16,10 @@ function miljo_script_enqueue() {
     wp_enqueue_script('jquery.min', get_template_directory_uri().'/Resources/bower_components/jquery/dist/jquery.min.js',array(),'1.0.0',false);
     wp_enqueue_script('bootstrap.min', get_template_directory_uri().'/Resources/bower_components/bootstrap/dist/js/bootstrap.min.js',array(),'1.0.0',false);
     
+    wp_enqueue_script("angularjs", get_template_directory_uri().'/Resources/bower_components/angular/angular.js', array(), '1.0.0',false);
+    /*wp_enqueue_script("angular-min-js", get_template_directory_uri().'/Resources/bower_components/angular/angular.min.js', array(), '1.0.0',false); */
+    wp_enqueue_script('angularjs-route',get_template_directory_uri().'/Resources/bower_components/angular-route/angular-route.min.js', array(), '1.0.0', false);
+    wp_enqueue_script('app-js', get_template_directory_uri().'/js/app.js',array(),'1.0.0',false); 
 }
 add_action('wp_enqueue_scripts', 'miljo_script_enqueue');
 
