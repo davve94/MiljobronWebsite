@@ -75,7 +75,7 @@ body {
     /*position: relative; */
    /* min-height: auto;                    /* -- använd ej pixlar för att justera positionen !!!!! */
     height: 45%;                        /* är beroende av alla andra */
-    /* border: 2px solid pink; */
+    /* border: 2px solid red; */
 }
 #sidebar{
     background-color: white;
@@ -128,7 +128,7 @@ ul {
     padding: 0; 
    /* overflow: hidden; */
    /* background-color: #669900; */
-    background: rgba(255,255,255,0.6);
+    background: rgba(0, 200, 0,0.4);
 }
 
 li {
