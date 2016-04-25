@@ -69,22 +69,22 @@ body {
 #container {
     text-align: center;
     overflow: scroll;
-    width: 65%;
+    width: 100%;
     float: left;
     background: #fff; 
     /*position: relative; */
    /* min-height: auto;                    /* -- använd ej pixlar för att justera positionen !!!!! */
-    height: 45%;                        /* är beroende av alla andra */
-    /* border: 2px solid red; */
+    height: 40%;                        /* är beroende av alla andra */
+     border: 2px solid red; 
 }
 #sidebar{
     background-color: white;
     color:blue;
     float: right;
     font-size: 25px;
-    width: 35%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
-    height:45%;                     /* är beroende av alla andra */
-    border: 1px solid black; 
+    width: 100%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
+    height:30%;                     /* är beroende av alla andra */
+    border: 2px solid black; 
 }
 
 
