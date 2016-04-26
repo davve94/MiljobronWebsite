@@ -50,14 +50,14 @@
    </div>
     
           <div class="slideshow">
-
+              <center>
 <img class="mySlides " src="wp-content/themes/MiljobronTheme/Images/bg.jpg" style="height:100%; width:auto;  " >
 <img class="mySlides" src="wp-content/themes/MiljobronTheme/Images/bg2.jpg" style="height:100%; width:auto;">
 
 
 <a class="w3-btn-floating" style="position:absolute;top:20%;left:0" onclick="plusDivs(-1)">❮</a>
 <a class="w3-btn-floating" style="position:absolute;top:20%;right:0" onclick="plusDivs(1)">❯</a>
-
+             </center>
 </div>
        
        
