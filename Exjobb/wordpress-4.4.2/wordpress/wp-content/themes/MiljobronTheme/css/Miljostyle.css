@@ -171,6 +171,10 @@ a:link {
 #menubar{
    /* position: fixed; /* gör så att navigeringsmenyn följer med hela tiden */
    width: 100%;
+   position: fixed;
+   top:0;
+   left:0;
+ 
 }
 #contactinfo {
     float:left;
@@ -191,6 +195,10 @@ display: inline;
 }
 
 .slideshow{
+    height: 100%;
    
     
+}
+.mySlides {
+   
 }

@@ -31,7 +31,7 @@ $(document).scroll(function() {
     var y = $(document).scrollTop(), //get page y value 
         menu = $("#menubar");
     if(y >= 500)  {
-        menu.css("position", "relative");
+        menu.css({position: "absolute","top" : "0", "left": "0"});
       } else {
           menu.css({position: "fixed", "top" : "0", "left" : "0"});
       }
