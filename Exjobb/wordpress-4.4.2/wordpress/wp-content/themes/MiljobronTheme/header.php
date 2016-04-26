@@ -51,8 +51,8 @@
     
           <div class="slideshow">
               <center>
-<img class="mySlides " src="<?php echo get_bloginfo('template_directory');?>/Images/bg.jpg" />
-<img class="mySlides" src="<?php echo get_bloginfo('template_directory');?>/Images/bg2.jpg" />
+<img class="mySlides " src="<?php echo get_bloginfo('template_directory');?>/Images/bg.jpg" style="height:100%;width:auto;"/>
+<img class="mySlides" src="<?php echo get_bloginfo('template_directory');?>/Images/bg2.jpg" style="height:100%;width:auto;"/>
 
 
 <a class="w3-btn-floating" style="position:absolute;top:20%;left:0" onclick="plusDivs(-1)">❮</a>

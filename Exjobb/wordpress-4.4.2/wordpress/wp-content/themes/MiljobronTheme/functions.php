@@ -1,3 +1,5 @@
+
+<?php// show_admin_bar(false); ?>
 <?php
 /*********** initierar alla scripts och länkar ***************************************************/
 /* 
@@ -5,6 +7,7 @@
  */
 function miljo_script_enqueue() {
   // links here
+    
     wp_enqueue_style('bootstrap.min.css', get_template_directory_uri().'/Resources/bower_components/bootstrap/dist/css/bootstrap.min.css', array(),'1.0.0','all');
     wp_enqueue_style('customresponsiv', 'http://www.w3schools.com/lib/w3.css', array(),'1.0.0','all'); /* bibliotek som gör sidan automatiskt responsiv och ändrar storlek beroende på skärm storlek */
     wp_enqueue_style('customstyle', get_template_directory_uri().'/css/Miljostyle.css', array(),'1.0.0','all');
