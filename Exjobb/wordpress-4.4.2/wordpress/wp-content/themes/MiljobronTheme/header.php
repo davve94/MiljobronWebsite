@@ -39,13 +39,6 @@
              <span ng-bind="Message"></span>-->
                
           </div>
-          <!--
-         <div  class="header_slider" data-slides='[
-               "<?php// echo get_bloginfo('template_directory');?>/Images/img1.jpg", 
-               "<?php //echo get_bloginfo('template_directory');?>/Images/img2.jpg "
-               ]'>
-      </div> 
-          -->
      
    </div>   <!-- menubar slut tag -->
     
@@ -53,6 +46,8 @@
               <center>
 <img class="mySlides " src="<?php echo get_bloginfo('template_directory');?>/Images/bg.jpg" style="height:100%;width:auto;"/>
 <img class="mySlides" src="<?php echo get_bloginfo('template_directory');?>/Images/bg2.jpg" style="height:100%;width:auto;"/>
+<img class="mySlides" src="<?php echo get_bloginfo('template_directory');?>/Images/img1.jpg" style="height:100%;width:auto;"/>
+<img class="mySlides" src="<?php echo get_bloginfo('template_directory');?>/Images/img2.jpg" style="height:100%;width:auto;"/>
 
 
 <a class="w3-btn-floating" style="position:absolute;top:20%;left:0" onclick="plusDivs(-1)">❮</a>

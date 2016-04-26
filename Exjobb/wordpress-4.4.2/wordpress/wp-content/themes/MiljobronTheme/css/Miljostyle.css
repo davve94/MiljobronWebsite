@@ -129,7 +129,8 @@ ul {
     padding: 0; 
    /* overflow: hidden; */
    /* background-color: #669900; */
-    background: rgba(0, 200, 0,0.4);
+    /* background: rgba(0, 200, 0,0.4); green transparent*/
+    background: rgba(255,255,255,0.6);
 }
 
 li {
