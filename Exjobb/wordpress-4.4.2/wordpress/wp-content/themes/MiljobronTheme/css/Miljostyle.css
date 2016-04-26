@@ -56,7 +56,7 @@ body {
     background: #7aaa3f;
     border: 1px solid black; 
     width: 100%;
-    height: 40%; 
+    height: 50%; 
     top:0;
     /* är beroende av alla andra, tillsammans ger de 100% */
     /*top:0; */
@@ -80,7 +80,7 @@ body {
 }
 #sidebar{
     background-color: white;
-    color:blue;
+    color:black;
     float: right;
     font-size: 25px;
     width: 100%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
@@ -203,3 +203,24 @@ display: inline;
 .mySlides {
    
 }
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 90%;
+      margin: auto;
+     
+  }
+  
+
+  
+  .carousel-indicators.middle {
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 15px;
+    text-align: center;
+}
+    .carousel-indicators.middle li {
+        float: none;
+        display: inline-block;
+    }
