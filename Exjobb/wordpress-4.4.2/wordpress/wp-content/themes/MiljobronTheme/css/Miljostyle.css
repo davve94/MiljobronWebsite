@@ -53,15 +53,16 @@ body {
     position: absolute;
 }
 #head{
-    background: white;
-    border: 2px solid #7aaa3f; 
+    background: #7aaa3f;
+    border: 1px solid black; 
     width: 100%;
     height: 40%; 
     top:0;
     /* är beroende av alla andra, tillsammans ger de 100% */
     /*top:0; */
     
-  /*background-image:url("Images/img1.jpg");
+   /* background-image:url(Images/img1.jpg);
+    background-size: cover;
     /*background-repeat: no-repeat; */
 }   
 
@@ -189,3 +190,7 @@ display: inline;
     
 }
 
+.slideshow{
+    margin-left:10%;
+    
+}
