@@ -65,7 +65,10 @@
 <!------------------- Kalla på Javascript funktioner här ---------------->
 <!----------------------------------------------------------------------->
       <script>
-          slider();      // image slider- changes the images in the header 
+          var slideIndex = 1;
+          showDivs(slideIndex);     // image slider- changes the images in the header
+          var myIndex = 0;
+          carousel();
       </script>
       <script>
           fixedMenu();   // menu changes position when scroll reaches certain point

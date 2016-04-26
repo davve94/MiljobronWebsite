@@ -101,7 +101,14 @@ function showDivs(n) {
 }
 /*****************************************************************/
 
+/******************************************************************************/
+
 //SLIDESHOW FUNCTIONS
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
@@ -109,8 +116,8 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
+  if (n > x.length) {slideIndex = 1;}    
+  if (n < 1) {slideIndex = x.length;} ;
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
@@ -127,10 +134,11 @@ function carousel() {
        x[i].style.display = "none";  
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
+    if (myIndex > x.length) {myIndex = 1;}    
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 3000);    
-}
+    }
+/******************************************************************************/
 /*(function($) {
 
     'use strict';
