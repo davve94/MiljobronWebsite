@@ -1,6 +1,6 @@
 <!doctype html >
 
-<html ng-app="headapp">
+<html>
 <head>
 <title><?php bloginfo('title')?></title>
 <?php wp_head()?> <!-- fixar alla scripts och links, hooks/refererar till functions.php -->
@@ -68,7 +68,7 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-          <div ng-controller="MyController">
+          
        <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
         <input type="text" class="form-control" placeholder="Sök" >
@@ -79,7 +79,7 @@
              <!-- <input type="button" ng-click="Buttonclick()"/>
              <span ng-bind="Message"></span>-->
                
-          </div>
+       
      
    </div>   <!-- menubar slut tag -->
    <!-- </div>  not nice--> 
