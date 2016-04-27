@@ -1,5 +1,5 @@
 
-<?php// show_admin_bar(false); ?>
+
 <?php
 /*********** initierar alla scripts och länkar ***************************************************/
 /* 
@@ -15,14 +15,32 @@ function miljo_script_enqueue() {
     wp_enqueue_style('social_buttons_fonts', get_template_directory_uri().'/css/assets/css/font-awesome.css', array(),'1.0.0','all');
     wp_enqueue_style('footer_bootstrap', get_template_directory_uri().'/css/footer-distributed-with-address-and-phones.css', array(),'1.0.0','all');
   // scripts here!
+   /* wp_enqueue_script('angular-js', get_template_directory_uri().'/Resources/bower_components/angular/angular.js', array(), '1.0.0',false); 
+    wp_enqueue_script('angularjs-route',get_template_directory_uri().'/Resources/bower_components/angular-route/angular-route.js', array(), '1.0.0', false);
+    wp_enqueue_script("angular-min-js", get_template_directory_uri().'/Resources/bower_components/angular-resource/angular-resource.min.js', array(), '1.0.0',false); 
+    wp_enqueue_script(
+		'miljo_script_enqueue',
+		get_template_directory_uri(). '/js/scripts.js',
+		array( 'angularjs', 'angularjs-route' )
+	);
+    wp_enqueue_script('app-js', get_template_directory_uri().'/js/app.js',array(),'1.0.0',false); 
+    wp_localize_script(
+		'miljo_script_enqueue',
+		'myLocalized',
+		array(
+			'partials' => trailingslashit( get_template_directory_uri() ) . '/partials/'
+			)
+	); */
+    
     wp_enqueue_script('customjs', get_template_directory_uri().'/js/functions.js',array(),'1.0.0',false); // false means running in header, which is bad,run in footer!
+    wp_enqueue_script('customjs', get_template_directory_uri().'/js/mainController.js',array(),'1.0.0',false);
     wp_enqueue_script('jquery.min', get_template_directory_uri().'/Resources/bower_components/jquery/dist/jquery.min.js',array(),'1.0.0',false);
     wp_enqueue_script('bootstrap.min', get_template_directory_uri().'/Resources/bower_components/bootstrap/dist/js/bootstrap.min.js',array(),'1.0.0',false);
     
-    wp_enqueue_script("angularjs", get_template_directory_uri().'/Resources/bower_components/angular/angular.js', array(), '1.0.0',false);
-    /*wp_enqueue_script("angular-min-js", get_template_directory_uri().'/Resources/bower_components/angular/angular.min.js', array(), '1.0.0',false); */
-    wp_enqueue_script('angularjs-route',get_template_directory_uri().'/Resources/bower_components/angular-route/angular-route.min.js', array(), '1.0.0', false);
-    wp_enqueue_script('app-js', get_template_directory_uri().'/js/app.js',array(),'1.0.0',false); 
+   /* wp_enqueue_script("angularjs", get_template_directory_uri().'/Resources/bower_components/angular/angular.js', array(), '1.0.0',false); */
+   
+   /* wp_enqueue_script('angularjs-route',get_template_directory_uri().'/Resources/bower_components/angular-route/angular-route.js', array(), '1.0.0', false); */
+
 }
 add_action('wp_enqueue_scripts', 'miljo_script_enqueue');
 

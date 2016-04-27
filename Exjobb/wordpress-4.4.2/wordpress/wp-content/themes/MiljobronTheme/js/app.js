@@ -1,4 +1,4 @@
-
+/*
 angular.module('headapp',[]) 
         .controller('MyController', function($scope) {
             
@@ -6,5 +6,7 @@ angular.module('headapp',[])
                 $scope.Message = "Button clicked";
             }
             
-        });
+        }); */
+
+
 

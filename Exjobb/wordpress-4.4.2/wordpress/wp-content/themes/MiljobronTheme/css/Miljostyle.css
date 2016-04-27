@@ -38,7 +38,7 @@ p{
 
 body {
     
-    background: black;
+    
     font-family: 'Lato','Gill Sans MT', arial;
     font-size: 11px;
    /* border: 4px solid blueviolet; */
@@ -56,7 +56,7 @@ body {
     background: #7aaa3f;
     border: 1px solid black; 
     width: 100%;
-    height: 50%; 
+    height: 60%; 
     top:0;
     /* är beroende av alla andra, tillsammans ger de 100% */
     /*top:0; */
@@ -84,7 +84,7 @@ body {
     float: right;
     font-size: 25px;
     width: 100%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
-    height:30%;                     /* är beroende av alla andra */
+    height:50%;                     /* är beroende av alla andra */
     border: 2px solid #7aaa3f; 
 }
 
@@ -206,21 +206,8 @@ display: inline;
 
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 90%;
+      width: 70%;
       margin: auto;
      
   }
   
-
-  
-  .carousel-indicators.middle {
-    left: 0;
-    right: 0;
-    top: auto;
-    bottom: 15px;
-    text-align: center;
-}
-    .carousel-indicators.middle li {
-        float: none;
-        display: inline-block;
-    }

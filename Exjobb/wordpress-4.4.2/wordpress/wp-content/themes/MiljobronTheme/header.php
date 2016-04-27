@@ -84,8 +84,8 @@
    </div>   <!-- menubar slut tag -->
    <!-- </div>  not nice--> 
 
-
-    <div id="container"> <p> hello </p>
+<div id="container">
+    
            
         
         
