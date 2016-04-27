@@ -28,10 +28,18 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="wp-content/themes/MiljobronTheme/Images/bg.jpg" alt="Miljöbron" width="auto" height="100%">
+        <div class="carousel-caption">
+        <h3>Mijöbron</h3>
+        <p>Praise the lord</p>
+      </div>
       </div>
 
       <div class="item">
         <img src="wp-content/themes/MiljobronTheme/Images/bg2.jpg" alt="Miljöbron" width="auto" height="100%">
+        <div class="carousel-caption">
+        <h3>Mijöbron</h3>
+        <p>Praise the lord</p>
+      </div>
       </div>
     
       
