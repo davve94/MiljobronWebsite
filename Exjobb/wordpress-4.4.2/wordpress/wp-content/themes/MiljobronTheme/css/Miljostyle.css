@@ -65,9 +65,15 @@ body {
     background-size: cover;
     /*background-repeat: no-repeat; */
 }   
+  
+#container a:link { color: blue; }
+#container a:visited { color: blue; }
+#container a:hover { color: blue; }
+#container a:active { color: blue; }
 
 
 #container {
+   
     text-align: center;
     
     overflow: auto;
@@ -214,16 +220,8 @@ display: inline;
       margin: auto;
      
   }
-/*
-  a:link {
-    color: green;
-}
 
 
-a:visited {
-    color: blue;
-}
-*/
 
 .carousel-control.left, .carousel-control.right {
     background-image: none
