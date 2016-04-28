@@ -78,7 +78,7 @@ body {
     background: white; 
     /*position: relative; */
    /* min-height: auto;                    /* -- använd ej pixlar för att justera positionen !!!!! */
-     height: 100%;                        /* är beroende av alla andra */
+     height: auto;                       /* är beroende av alla andra */
      border: 2px solid #7aaa3f; 
 }
 #sidebar{
