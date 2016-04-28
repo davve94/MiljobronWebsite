@@ -184,3 +184,9 @@ document.body.background=pathToImg[inc].src;
 
 if (document.all||document.getElementById)
 window.onload=new Function('setInterval("bgSlide()",3000)');
+
+//Carousel function
+
+$('.carousel-control').click(function (e) {
+  e.preventDefault();
+});
