@@ -1,14 +1,14 @@
-angular.module('app', ['ngRoute'])
-.config(function($routeProvider, $locationProvider) {
-	$locationProvider.html5Mode(true);
 
-	$routeProvider
-	.when('/', {
-		templateUrl: myLocalized.partials + 'main.html',
-		controller: 'Main'
-	});
+angular.module('LinkModule', ['ngSanitize'])
+.filter('addTargetBlank', function(){
+  return function(x) {
+    var tree = angular.element('<div>'+x+'</div>');//defensively wrap in a div to avoid 'invalid html' exception
+    tree.find('a').attr('target', '_blank'); //manipulate the parse tree
+    return angular.element('<div>').append(tree).html(); //trick to have a string representation
+  };
 })
-.controller('Main', function() {
-	console.log('Main file loaded.');
+
+.controller('LinkCtrl', function($scope){
+  $scope.myHtml = 'test html content 1 <a href="#">click here</a>, test html content 2 <a href="#">click here</a>, test html content 3 <a href="#">click here</a>';
 });
 

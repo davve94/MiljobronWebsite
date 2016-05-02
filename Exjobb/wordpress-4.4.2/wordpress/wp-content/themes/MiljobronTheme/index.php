@@ -1,3 +1,14 @@
+<?php
+/**
+ * Template Name: Index
+ *
+ * @package WordPress
+ * @subpackage MiljobronTheme
+ * @since MiljobronTheme 1.0
+ */
+?>
+
+
 <!doctype html>
 
 
@@ -22,52 +33,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 
-<!------------------------------------------------------------------------------>
-<!--------------------------- AngularJS ---------------------------------------->
-<!------------------------------------------------------------------------------>
-      
- <script>           
- 'use strict';
-
-angular.module('app', ['ngRoute','ngSanitize'])
-    .config(config);
-    
-config.$inject = ['$routeProvider','$locationProvider'];
-function config($routeProvider, $locationProvider) {
-    $locationProvider.html5Mode(true);
-    $routeProvider
-        .when('/', {
-            controller: 'Main',
-            templateUrl: '<?php echo get_template_directory_uri();?>/Partials/main.html'
-        })
-        .when('/:slug', {
-            controller: 'Slug',
-            templateUrl: '<?php echo get_template_directory_uri();?>/Partials/demo.html'
-        });
-    };
-angular.module('app').controller('Main', function($scope, $http) {
-        //console.log("============ 1 ===========");
-        //$http.defaults.transformResponse = [];
-	 $http.get('api/get_posts').success(function(res){
-        // console.log("============= 3 ==============");
-        $scope.postss = res.posts;
-        //console.log("==  3  = " + res[0]);
-        
-        
-});
-
-});
-angular.module('app').controller('Slug', function($scope, $http) {
-	$http.get('api/get_posts').success(function(res){
-            $scope.postss = post.res;
-            
-        });
-      
-});
-</script>
-<!------------------------------------------------------------------------------>
-<!------------------------------ ends ------------------------------------------>
-<!------------------------------------------------------------------------------>
 </head>
 
 <body>

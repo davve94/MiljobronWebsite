@@ -1,9 +1,10 @@
 
 	<div ng-repeat="post in postss">
-		<h1>    {{post.ID}}
+		<h1>    {{post.id}}
 			{{post.title}}
+                        {{post.slug}}
                 <div ng-bind-html="post.content"></div>
 		</h1>
 	</div>
-
+    
 
