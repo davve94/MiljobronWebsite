@@ -18,12 +18,13 @@ function config($routeProvider, $locationProvider) {
             controller: 'Content'
           
         })
-         .when('/:slug/', {
+         .when('/:slug/uppdrag', {
             templateUrl: 'wp-content/themes/MiljobronTheme/Partials/page.html',
-            controller: 'Content'
+            controller: 'Uppdrag'
             
         });
-        // .otherwise({ redirectTo: '/' });
+            
+         //.otherwise({ redirectTo: '/' }); */
         
     };
 angular.module('app').controller('Main', function($scope, $http,  $routeParams) {
@@ -41,7 +42,7 @@ angular.module('app').controller('Main', function($scope, $http,  $routeParams) 
 
 });
 angular.module('app').controller('Content',  function($scope, $http, $routeParams){ 
-$scope.loadData = function(){
+//$scope.loadData = function(){
         console.log("=== " + $routeParams.slug);
 	$http.get('api/get_page/?slug=' + $routeParams.slug).success(function(res){
 		$scope.pagess = res.page;
@@ -50,18 +51,32 @@ $scope.loadData = function(){
             console.log("========================stop============================");
             
 	});
-    };
-        $scope.loadData();
+    //};
+        //$scope.loadData();
 });
-/*angular.module('app').controller('myCtrl', function($scope, $window) {
-    
-    
+angular.module('app').controller('Uppdrag',  function($scope, $http, $routeParams){ 
 
+        console.log("=== " + $routeParams.slug);
+	$http.get('api/get_page/?slug=x-race/uppdrag').success(function(res){
+		$scope.pagess = res.page;
+            console.log("=== " + $scope.page);
+            console.log(arguments);
+            console.log("========================stop============================");
+            
+	});
+    
 });
-angular.module('app').directive('href', function() {
-  return {
-    compile: function(element) {
-      element.attr('target', '_blank');
-    }
+angular.module('app').filter('addTargetBlank', function(){
+   return function(x) {
+    var tree = angular.element('<div>'+x+'</div>');//defensively wrap in a div to avoid 'invalid html' exception
+    tree.find('a').attr('target', '_blank'); //manipulate the parse tree
+    if(x) return angular.element('<div>').append(tree).html(); //trick to have a string representation
   };
-}); */
+});
+/*
+.controller('HomeCtrl', function($scope){ /* does nothing 
+  $scope.myHtml = 'test html content 1 <a href="#">click here</a>, test html content 2 <a href="#">click here</a>, test html content 3 <a href="#">click here</a>';
+});
+*/
+
+

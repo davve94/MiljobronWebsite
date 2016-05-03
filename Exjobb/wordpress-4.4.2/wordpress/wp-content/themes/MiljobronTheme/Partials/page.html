@@ -4,15 +4,11 @@
 <!--<div ng-repeat="page in pagess"> -->
 
 	
-    
+
                 <h1>  
                    
-                        {{pagess.id}}
-			{{pagess.title}}
-                        {{pagess.url}}
-                        {{pagess.slug}}
-                        {{pagess.type}}
-                 <div ng-bind-html="pagess.content"></div>
+                       
+                 <div ng-bind-html="pagess.content | addTargetBlank"></div>
                 </h1>
 
 

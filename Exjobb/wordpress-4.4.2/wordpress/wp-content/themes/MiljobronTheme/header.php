@@ -31,16 +31,15 @@
       <div class="item active">
         <img src="wp-content/themes/MiljobronTheme/Images/bg.jpg" alt="Miljöbron" width="auto" height="100%">
         <div class="carousel-caption">
-        <h3>Mijöbron</h3>
-        <p>Praise the lord</p>
+        <h3>Miljöbron</h3>
       </div>
       </div>
 
       <div class="item">
         <img src="wp-content/themes/MiljobronTheme/Images/bg2.jpg" alt="Miljöbron" width="auto" height="100%">
         <div class="carousel-caption">
-        <h3>Mijöbron</h3>
-        <p>Praise the lord</p>
+        <h3>Miljöbron</h3>
+        
       </div>
       </div>
     
@@ -63,16 +62,27 @@
       <div class="container" >
         <!-- Brand and toggle get grouped f or better mobile display -->
         <div class="navbar-header">
+            
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
+            
+            
+            
+            
           </button>
             <!-- Add logo 
           <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/MBTP.png" alt="" /></a>
         </div>
                 -->
+       
+             <!-- <input type="button" ng-click="Buttonclick()"/>
+             <span ng-bind="Message"></span>-->
+               
+       
+                
 
         <?php
         wp_nav_menu( array(
@@ -85,8 +95,19 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
+        <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+        <input type="text" class="form-control" placeholder="Sök" >
+        </div>
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+        </button>
+        </form>
+                
       </div><!-- /.container-fluid -->
+      
+      
     </nav>
+       
 </div><!-- End of NAVBAR -->
    <!-- </div>  not nice--> 
 
