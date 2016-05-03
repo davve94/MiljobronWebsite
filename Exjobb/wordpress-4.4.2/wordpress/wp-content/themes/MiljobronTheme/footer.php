@@ -71,7 +71,14 @@
           carousel();
       </script>
       <script>
-          fixedMenu();   // menu changes position when scroll reaches certain point
+          fixedMenu();  
+                   //Carousel function to prevent #myCarousel - add to funtions file
+          $('.carousel-control').click(function (e) {
+  e.preventDefault();
+});
+          
+ 
+          // menu changes position when scroll reaches certain point
       </script>
 </footer>
 
