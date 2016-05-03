@@ -58,32 +58,36 @@
     </a>
   </div>
   
-   <div id="menubar" > 
-      
+   <div id="nav"> <!-- Start of NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="menubar" role="navigation">
+      <div class="container" >
+        <!-- Brand and toggle get grouped f or better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <!-- Add logo 
+          <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/MBTP.png" alt="" /></a>
+        </div>
+                -->
+
         <?php
-            wp_nav_menu( array(
+        wp_nav_menu( array(
                 'menu'              => 'primary',
-                'theme_location'    => 'primary',
                 'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'navbar-collapse collapse',
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-          
-       <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-        <input type="text" class="form-control" placeholder="Sök" >
-        </div>
-        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
-        </button>
-        </form>
-             <!-- <input type="button" ng-click="Buttonclick()"/>
-             <span ng-bind="Message"></span>-->
-               
-       
-     
-   </div>   <!-- menubar end tag -->
+      </div><!-- /.container-fluid -->
+    </nav>
+</div><!-- End of NAVBAR -->
    <!-- </div>  not nice--> 
 
 <!--<div id="container"> -->
