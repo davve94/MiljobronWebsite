@@ -33,8 +33,8 @@ angular.module('app').controller('Main', function($scope, $http,  $routeParams) 
 	 $http.get('api/get_posts').success(function(res){
        
         $scope.postss = res.posts;
-        console.log("== " + $scope.postss);
-        console.log(arguments);
+       // console.log("== " + $scope.postss);
+       // console.log(arguments);
          
         
         //console.log("==  3  = " + res[0]);
@@ -78,5 +78,23 @@ angular.module('app').filter('addTargetBlank', function(){
   $scope.myHtml = 'test html content 1 <a href="#">click here</a>, test html content 2 <a href="#">click here</a>, test html content 3 <a href="#">click here</a>';
 });
 */
+angular.module('app').directive('mySearchForm', function() {
+	return {
+           
+		restrict: 'EA',
+		templateUrl: 'wp-content/themes/MiljobronTheme/Partials/search-form.html',
+		controller: function ( $scope, $http ) {
+			$scope.slug = {
+				s: ''
+			};
+			$scope.search = function() {
+				$http.get('api/get_post/?slug=' + $scope.slug.s).success(function(res){
+					$scope.postss = res;
+				});
+			};
+		}
+	};
+});
+
 
 

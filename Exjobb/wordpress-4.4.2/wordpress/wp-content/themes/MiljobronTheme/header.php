@@ -96,12 +96,12 @@ if ( wp_is_mobile() == false) { ?>
         ?>
         
       </div><!-- /.container-fluid -->
-      <form class="navbar-form navbar-left" role="search">
+   <!--   <form class="navbar-form navbar-left" role="search">
     <div class="form-group">
         <input type="text" class="form-control" placeholder="Search">
     </div>
     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-</form>
+</form> -->
     </nav>
 </div><!-- End of NAVBAR -->
    <!-- </div>  not nice--> 
