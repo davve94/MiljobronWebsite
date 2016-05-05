@@ -14,6 +14,9 @@
                          <p></p>
                             <button type="button" class="btn btn-default">Skicka</button>
                                 </div>
+            
+            
+            
 				
                             <div id="copyright">   
                             <p>    <?=date('Y')?>   Copyright Miljöbron   </p>                   

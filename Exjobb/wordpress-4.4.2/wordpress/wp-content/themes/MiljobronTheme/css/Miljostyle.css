@@ -74,7 +74,7 @@ body {
 
 #container {
    
-    text-align: center;
+   /* text-align: center;*/
     
     overflow: auto;
     margin-left:15%;
@@ -185,6 +185,9 @@ a:link {
    position: fixed;
    top:0;
    left:0;
+    
+
+    
  
 }
 #contactinfo {
@@ -227,3 +230,6 @@ display: inline;
     background-image: none
 }
 
+.navbar-form{
+  
+}

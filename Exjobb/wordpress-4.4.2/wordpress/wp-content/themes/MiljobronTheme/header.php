@@ -12,12 +12,13 @@
 <!------------------------------------------------------------------------------------>
 <body>
 <div id = "structure" > 
- 
+        
   <!------------------------ header --------------------------------------------->
   
    <div id="head">
-       
- 
+ <?php
+if ( wp_is_mobile() == false) { ?>
+    
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
    
       <!-- Indicators NOT CENTERED
@@ -31,15 +32,16 @@
       <div class="item active">
         <img src="wp-content/themes/MiljobronTheme/Images/bg.jpg" alt="Miljöbron" width="auto" height="100%">
         <div class="carousel-caption">
-        <h3>Miljöbron</h3>
+        <h3>Mijöbron</h3>
+        <p>text text</p>
       </div>
       </div>
 
       <div class="item">
         <img src="wp-content/themes/MiljobronTheme/Images/bg2.jpg" alt="Miljöbron" width="auto" height="100%">
         <div class="carousel-caption">
-        <h3>Miljöbron</h3>
-        
+        <h3>Mijöbron</h3>
+        <p>------</p>
       </div>
       </div>
     
@@ -56,33 +58,30 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-  
+       <?php } ?>
+
    <div id="nav"> <!-- Start of NAVBAR -->
+       
     <nav class="navbar navbar-default navbar-fixed-top" id="menubar" role="navigation">
+        
       <div class="container" >
+          
         <!-- Brand and toggle get grouped f or better mobile display -->
         <div class="navbar-header">
+            
             
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            
-            
-            
-            
+          
           </button>
-            <!-- Add logo 
-          <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/MBTP.png" alt="" /></a>
+              
+          <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory'); ?>/images/MBTP2.png" alt="" /></a>
+           
         </div>
-                -->
-       
-             <!-- <input type="button" ng-click="Buttonclick()"/>
-             <span ng-bind="Message"></span>-->
-               
-       
-                
+            
 
         <?php
         wp_nav_menu( array(
@@ -95,19 +94,15 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-        <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-        <input type="text" class="form-control" placeholder="Sök" >
-        </div>
-        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
-        </button>
-        </form>
-                
+        
       </div><!-- /.container-fluid -->
-      
-      
+      <form class="navbar-form navbar-left" role="search">
+    <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+    </div>
+    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+</form>
     </nav>
-       
 </div><!-- End of NAVBAR -->
    <!-- </div>  not nice--> 
 
@@ -115,7 +110,3 @@
     
            
         
-        
-     
-   
-
