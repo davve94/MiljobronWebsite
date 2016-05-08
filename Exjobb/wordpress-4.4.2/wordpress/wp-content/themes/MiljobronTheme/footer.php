@@ -32,9 +32,9 @@
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>&nbsp;&nbsp;&nbsp;&nbsp;031-202 789&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                            <p>031-202 789 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
 				</div>
-
+                            
 				<div>
 					<i id="email" class="fa fa-envelope"></i>
 					<p><a href="mailto:info@miljobron.se">info@miljobron.se &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
