@@ -45,6 +45,29 @@ if ( wp_is_mobile() == false) { ?>
       </div>
       </div>
     
+         <div class="item">
+        <img src="wp-content/themes/MiljobronTheme/Images/bg3.jpg" alt="Miljöbron" width="auto" height="100%">
+        <div class="carousel-caption">
+        <h3>Mijöbron</h3>
+        <p>------</p>
+      </div>
+      </div>
+        
+         <div class="item">
+        <img src="wp-content/themes/MiljobronTheme/Images/bg4.jpg" alt="Miljöbron" width="auto" height="100%">
+        <div class="carousel-caption">
+        <h3>Mijöbron</h3>
+        <p>------</p>
+      </div>
+      </div>
+        
+         <div class="item">
+        <img src="wp-content/themes/MiljobronTheme/Images/bg5.jpg" alt="Miljöbron" width="auto" height="100%">
+        <div class="carousel-caption">
+        <h3>Mijöbron</h3>
+        <p>------</p>
+      </div>
+      </div>
       
     </div>
 
