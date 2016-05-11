@@ -6,8 +6,9 @@
 <footer class="footer-distributed">
 
 	<div class="footer-left">
-  
-             <div class="footer-left"> Fyll i för nyhetsbrev! </p>
+            
+            
+             <div class="footer-left"><p> Anmäl dig här för nyhetsbrev! </p>
                  <input type="text" class="form-control" placeholder="E-mail">
                     <p></p>
                          <input type="text" class="form-control" placeholder="Fullt namn">
