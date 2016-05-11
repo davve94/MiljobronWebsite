@@ -41,9 +41,12 @@
 <?php get_header() ?>
   
 <div id="container" ng-view>
+    
+    
+    
 </div> <!-- dont remove!! dependent on AngularJS --->
 
-<?php get_sidebar() ?>
+
 <?php get_footer() ?>
 
  

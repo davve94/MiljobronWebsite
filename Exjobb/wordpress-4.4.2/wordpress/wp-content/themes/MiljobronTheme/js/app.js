@@ -13,14 +13,24 @@ function config($routeProvider, $locationProvider) {
             controller: 'Main'
             
         })
+        .when('/nyheter', {
+            templateUrl: 'wp-content/themes/MiljobronTheme/Partials/news.html',
+            controller: 'News'
+            
+        })
         .when('/:slug', {
             templateUrl: 'wp-content/themes/MiljobronTheme/Partials/page.html',
             controller: 'Content'
           
         })
          .when('/:slug/uppdrag', {
-            templateUrl: 'wp-content/themes/MiljobronTheme/Partials/page.html',
+            templateUrl: 'wp-content/themes/MiljobronTheme/Partials/uppdrag.html',
             controller: 'Uppdrag'
+            
+        })
+         .when('/nyheter', {
+            templateUrl: 'wp-content/themes/MiljobronTheme/Partials/news.html',
+            controller: 'News'
             
         });
             
@@ -58,6 +68,18 @@ angular.module('app').controller('Uppdrag',  function($scope, $http, $routeParam
 
         console.log("=== " + $routeParams.slug);
 	$http.get('api/get_page/?slug=x-race/uppdrag').success(function(res){
+		$scope.pagess = res.page;
+            console.log("=== " + $scope.page);
+            console.log(arguments);
+            console.log("========================stop============================");
+            
+	});
+    
+});
+angular.module('app').controller('News',  function($scope, $http, $routeParams){ 
+
+        console.log("=== " + $routeParams.slug);
+	$http.get('api/get_page/?slug=nyheter').success(function(res){
 		$scope.pagess = res.page;
             console.log("=== " + $scope.page);
             console.log(arguments);

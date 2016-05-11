@@ -284,3 +284,25 @@ box-shadow: 0 0 100px #000;
    
  
 }
+#postSearch {
+    
+   text-align: center;
+}
+#newsPage {
+    
+       text-align: center;
+    
+}
+#newsPage a {
+    
+   font-size: 20px;
+   text-align: center;
+   font-family: 'Lato','Gill Sans MT', arial;
+}
+#pageTitle {
+    
+    font-size: 24px;
+}
+#postTitle{
+    font-size: 24px;
+}

@@ -1,13 +1,20 @@
 <!DOCTYPE html>
+    <p> </p>
+    <div id ="postSearch" data-my-search-form> </div>
+    <div id="newsPage">
+   
+        <a href="/Miljobron/wordpress/nyheter">Se dagens nyheter här! &nbsp;&nbsp;</a>
+    </div>
 
 	<div ng-repeat="post in postss">
+            <div id="postTitle">     {{post.title}} </div>
                        <!-- {{post.id}}
-			{{post.title}}
+			
                         {{post.slug}} -->
                 <div ng-bind-html="post.content"></div> <!-- can have filter = addTargetBlank here if wanted --> 
 		 
                 
 	</div>
-    <div data-my-search-form> </div>
+   
    
 
