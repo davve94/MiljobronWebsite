@@ -80,7 +80,10 @@ body {
 #container a:visited { color: blue; }
 #container a:hover { color: blue; }
 #container a:active { color: blue; }
-
+#sidebar a:link { color: blue; }
+#sidebar a:visited { color: blue; }
+#sidebar a:hover { color: blue; }
+#sidebar a:active { color: blue; }
 
 
 #container {
@@ -112,7 +115,7 @@ box-shadow: 0 0 4px #000;
     color:black;
     float:left;
     margin-left:15%;
-    font-size: 25px;
+    
     width: 70%;                      /* -- använd ej pixlar för att justera positionen !!!!! */
     height:30%;                     /* är beroende av alla andra */
     
@@ -251,8 +254,7 @@ box-shadow: 0 0 4px #000;
   }
 
   #IG{
-      padding-left:70%;
-      padding-right: 0;
+      
       
   }
 
