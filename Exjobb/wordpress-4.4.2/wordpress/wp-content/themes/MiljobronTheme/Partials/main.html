@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
 	<div ng-repeat="post in postss">
-		<h1>    {{post.id}}
+                       <!-- {{post.id}}
 			{{post.title}}
-                        {{post.slug}}
+                        {{post.slug}} -->
                 <div ng-bind-html="post.content"></div> <!-- can have filter = addTargetBlank here if wanted --> 
 		 
-                </h1>
+                
 	</div>
     <div data-my-search-form> </div>
    

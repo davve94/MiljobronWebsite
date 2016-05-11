@@ -1,4 +1,4 @@
-
+/*
 angular.module('LinkModule', ['ngSanitize'])
 .filter('addTargetBlank', function(){
   return function(x) {
@@ -11,4 +11,4 @@ angular.module('LinkModule', ['ngSanitize'])
 .controller('LinkCtrl', function($scope){
   $scope.myHtml = 'test html content 1 <a href="#">click here</a>, test html content 2 <a href="#">click here</a>, test html content 3 <a href="#">click here</a>';
 });
-
+*/

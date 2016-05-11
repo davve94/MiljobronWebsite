@@ -53,7 +53,7 @@ register_nav_menus( array(
 ));
 
 /****************************************************************************************************/
-
+/*
 function my_add_link_target($html) {
 	$html = preg_replace( '/(<a.*")>/', '$1 target="_self">', $html );
 	return $html;
@@ -61,5 +61,5 @@ function my_add_link_target($html) {
 add_filter( 'image_send_to_editor', 'my_add_link_target', 10 );
 
 
-
+*/
 
